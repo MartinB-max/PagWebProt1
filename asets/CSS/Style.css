@@ -15,7 +15,6 @@ body {
     min-height: 100vh;
   }
   
-  /* Zonas del layout */
   header {
     grid-area: header;
     background-color: #004080;
@@ -51,8 +50,6 @@ body {
     padding-bottom: 2em;
     border-bottom: 1px solid #ccc;
   }
-  
-  /* Estilo del menú */
   aside.menu ul {
     list-style: none;
     padding: 0;
@@ -71,8 +68,6 @@ body {
   aside.menu a:hover {
     color: #ff6600;
   }
-  
-  /* Diseño responsive */
   @media (max-width: 768px) {
     .container {
       grid-template-areas:
